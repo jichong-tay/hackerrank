@@ -42,9 +42,9 @@ def main():
 
         # Add code for updating quantity_in_stock
         items2 = [
-            (103, 4),
-            (101, 2),
-            (105, 0),
+            (4, 103),
+            (2, 101),
+            (0, 105),
         ]
         sql = "update ITEMS set quantity_in_stock = ? where item_id = ?"
         cursor.executemany(sql, items2)
