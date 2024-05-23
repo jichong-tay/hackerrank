@@ -50,7 +50,7 @@ Step 1:
 To enter spark shell
 
 ```
-spark-submit
+spark-shell
 ```
 
 Step 2,3,4 (run line by line)
